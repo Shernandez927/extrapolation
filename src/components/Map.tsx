@@ -9,8 +9,8 @@ const Map = () => {
         <Card
         variant="outlined"
         sx={{
-          width: 300,
-          height: 300,
+          width: 400,
+          height: 350,
         }}
       >
         <MapContainer

@@ -1,14 +1,15 @@
 import './App.css'
-// import "leaflet/dist/leaflet.css";
+import Navbar from './components/Navbar';
 import Map from "./components/Map";
-// import { Card } from "@mui/material";
-// import { MapContainer, TileLayer } from "react-leaflet";
+import Footer from './components/Footer';
 
-function App() {
+const App = () => {
   return (
     <>
+      <Navbar></Navbar>
       <h1>Leaflet</h1>
       <Map></Map>
+      <Footer></Footer>
     </>
   );
 }
